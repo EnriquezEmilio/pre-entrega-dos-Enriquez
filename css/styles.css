@@ -1,0 +1,331 @@
+/*reset*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+
+/*general*/
+
+body{
+    background-color: rgb(241, 237, 241);
+    display: grid;
+    grid-template-rows: auto;
+}
+
+header{
+    background-color: rgb(228, 15, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: small;
+}
+
+
+
+.titulo{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav div div ul li a{
+    
+    padding: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 5px black;
+    border-radius: 60px;
+}
+
+.menuLista{
+    padding: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 5px black;
+    border-radius: 60px;
+}
+
+.mainI{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.indexUno{
+    text-align: center;
+    padding: 32px;
+}
+
+.indexDos{
+    text-align: center;
+}
+
+.noticiasIndex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    display: flex;
+    
+}
+
+footer h3{
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.socialLista{
+    
+    place-items: right;
+    margin-right: 160px;
+    
+   
+}
+
+.socialLista a{
+    padding: 10px;
+}
+
+
+
+
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    
+}
+
+a:link {
+    color:whitesmoke;
+  }
+  
+  a:visited {
+    color: whitesmoke;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    
+  }
+
+
+  /*CONTACTO*/
+
+.mainC{
+    margin: 30px;
+    display: block;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.contactoIFrame{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*discografia*/
+
+.discografia{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.discografia img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.discografia iframe{
+    margin-left: 10px;
+}
+
+/*fechas*/
+.listaFechas{
+    list-style-type: square;
+}
+
+/*noticias*/
+.noticiaUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 20px;
+
+}
+
+.noticiaContainer{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.noticiasContainer iframe{
+    margin-left: 40px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+
+body::-webkit-scrollbar-track {
+  background: white;        
+}    
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;    
+    border-radius: 3px;       
+    border: 3px solid  rgb(228, 15, 15);  
+  }
+
+
+/* Index Tablet */
+
+@media (max-width:1023px){
+    header{
+        background-color: rgb(228, 15, 15);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        font-size: small;
+    }
+
+    header h1{
+        color: whitesmoke;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .indexUno{
+        text-align: center;
+    }
+
+
+
+    
+}
+
+@media (max-width:936px){
+    footer .social{
+        flex-direction: column;
+    }
+
+    footer h3{
+        margin-left: 0px;
+
+    }
+
+    footer .socialLista{
+        margin-right: 0px;
+    }
+
+    .contactoIFrame{
+        width: 400px;
+        height: 244px;
+    }
+}
+
+@media (max-width:700px){
+    .noticiasIndex img{
+        width: 400px;
+        height: 244px;
+    }
+
+    .discografia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discografia img{
+        width: 400px;
+        height: 244px;
+    }
+    
+    
+    .discografia iframe{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 400px;
+        height: 244px;;
+    }
+
+    .contactoIFrame{
+        width: 400px;
+        height: 244px;
+    }
+}
+
+@media (max-width:420px){
+
+    .noticiasIndex img{
+        width: 280px;
+        height: 157px;
+    }
+
+    .discografia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discografia img{
+        width: 200px;
+        height: 112px;
+    }
+    
+    
+    .discografia iframe{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 200px;
+        height: 112px;;
+    }
+
+}
