@@ -303,6 +303,13 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+@media (max-width:500px){
+    .fotoLogo{
+        width: 220px;
+        height: 220px;
+    }
+}
+
 @media (max-width:420px){
 
     .noticiasIndex img{
