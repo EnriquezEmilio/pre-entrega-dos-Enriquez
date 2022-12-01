@@ -1,0 +1,24 @@
+{
+  "name": "entrega2enriquez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriquezEmilio/pre-entrega-dos-Enriquez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnriquezEmilio/pre-entrega-dos-Enriquez/issues"
+  },
+  "homepage": "https://github.com/EnriquezEmilio/pre-entrega-dos-Enriquez#readme",
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
