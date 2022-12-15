@@ -45,6 +45,9 @@ body{
         .indexUno{
             text-align: center;
             padding: 32px;
+            p{
+                font-size: large;
+            }
         }
         .noticiasIndex{
             display: flex;
@@ -108,11 +111,11 @@ body{
                 width: 300px;
                 height: 300px;
                 @include screen_700{
-                    width: 400px;
+                    width: 244px;
                     height: 244px;
                 }
                 @include screen_420{
-                    width: 300px;
+                    width: 168px;
                     height: 168px;
                 }
             }
@@ -165,6 +168,7 @@ body{
                 flex-direction: column;
             }
             h3{
+                font-size: medium;
                 text-align: center;
                 color: $colorsecundario;
                 align-items: center;

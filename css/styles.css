@@ -39,6 +39,9 @@ body main .indexUno {
   text-align: center;
   padding: 32px;
 }
+body main .indexUno p{
+  font-size: large;
+}
 body main .noticiasIndex {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +63,7 @@ body main .noticiasIndex {
 }
 body main .contactoIFrame {
   padding-top: 50px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -110,18 +114,19 @@ body .mainC .discografia img {
 }
 @media (max-width: 700px) {
   body .mainC .discografia img {
-    width: 400px;
+    width: 244px;
     height: 244px;
   }
 }
 @media (max-width: 420px) {
   body .mainC .discografia img {
-    width: 300px;
+    width: 168px;
     height: 168px;
   }
 }
 body .mainC .discografia iframe {
   margin-left: 10px;
+  
 }
 @media (max-width: 700px) {
   body .mainC .discografia iframe {
@@ -171,6 +176,7 @@ body footer .social {
   }
 }
 body footer .social h3 {
+  font-size: medium;
   text-align: center;
   color: whitesmoke;
   align-items: center;
