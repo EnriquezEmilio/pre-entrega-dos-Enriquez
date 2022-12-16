@@ -27,15 +27,23 @@ body{
             margin-right: 60px;
         }
         nav{
+            a{
+                h1{
+                    margin-bottom: 0;
+                    font-size:xx-large;
+                }
+            }
             ul{
                 list-style: none;
                 display: flex;
                 gap: 15px;
-                li a{
+                li{
+                    font-weight: bold;
+                 a{
                     padding: 10px;
                     color: $colorsecundario;
-                    text-shadow: 3px 2px 5px black;
                     border-radius: 60px;
+                    }
                 }
             }
     

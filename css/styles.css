@@ -24,15 +24,21 @@ body header .titulo {
   font-family: "Bebas Neue", cursive;
   margin-right: 60px;
 }
+body header nav a h1{
+  margin-bottom: 0;
+  font-size:xx-large;
+}
 body header nav ul {
   list-style: none;
   display: flex;
   gap: 15px;
 }
+body header nav ul li{
+  font-weight: bold;
+}
 body header nav ul li a {
   padding: 10px;
   color: whitesmoke;
-  text-shadow: 3px 2px 5px black;
   border-radius: 60px;
 }
 body main .indexUno {
